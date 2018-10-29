@@ -1,11 +1,27 @@
 body {
     background-color:#006699;
-}
-h1 {
    color:white;
+   font-family:Arial;
 }
-p {
-   color:white;
+
+#celtics{
+  background-color:green;
+}
+
+#redsox{
+  background-color:red;
+}
+#patriots{
+  background-color:blue;
+  color:silver;
+}
+.logo{
+  width:500px;
+}
+.logo-container{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 }
 .button {
     background-color: white;
