@@ -13,10 +13,10 @@ body {
 }
 #patriots{
   background-color:blue;
-  color:silver;
+  color:white;
 }
 .logo{
-  width:500px;
+  width:350px;
 }
 .logo-container{
   margin-left:auto;
@@ -33,15 +33,21 @@ body {
 }
 
 .button-link, .button-link:visited, .button-link:active {
-    color: #1a53ff;
+    color: green;
     text-decoration: none;
 }
 
 .button:hover {
-    background-color: blue;
+    background-color: black;
     box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .button-link:hover {
     color: white;
+}
+#navigation{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  margin-bottom:20px;
 }
