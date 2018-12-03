@@ -7,25 +7,58 @@
 
     <body>
 
-      <h1>Volume of a Cube Solver</h1>
+      <h1>Volume Solver</h1>
 
       <p>
-          The focus of this lesson is the <b>Volume Formula of a Cube</b>. You will use this calculator to
+          The focus of this lesson is the <b>Volume Formula</b>. You will use this calculator to
           solve the volume of a specific cube that the calculator will compute for you.
       </p>
 
+      <h3>Volume of a Cube</h3>
+      <p>Volume=a^3
+
     <form>
-      Side A: <input type="text" id="value1" name="value1" />
+      Side A: <input type="text" id="side" name="value1" />
       <br />
-      Side B: <input type="text" id="value2" name="value2" />
-      <br />
-      Side C: <input type="text" id="value3" name="value3" />
-      <br />
-      <button type="button" onclick="multiply()">*</button>
-      <button type="button" onclick="calculate()">=</button>
+      <button type="button" onclick="calculate()">Calculate</button>
 
   </form>
 
   Result: <span id="result"></span>
+
+  <h3>Volume of a Rectangular Prism</h3>
+  <p>Volume= a * b * c
+
+  <form>
+    Side A: <input type="text" id="value1" name="value1" />
+    <br />
+    Side B: <input type="text" id="value2" name="value2" />
+    <br />
+    Side C: <input type="text" id="value3" name="value3" />
+    <br />
+    <button type="button" onclick="multiply()">*</button>
+    <button type="button" onclick="calculate()">=</button>
+
+</form>
+
+Result: <span id="result"></span>
+
+<h3>Volume of a Pyramid</h3>
+<p>Volume= (1/3) * b * h
+
+<form>
+  Side A: <input type="text" id="value1" name="value1" />
+  <br />
+  Side B: <input type="text" id="value2" name="value2" />
+  <br />
+  Side C: <input type="text" id="value3" name="value3" />
+  <br />
+  <button type="button" onclick="()"></button>
+  <button type="button" onclick="calculate()">=</button>
+
+</form>
+
+Result: <span id="result"></span>
+
 
 </html>
