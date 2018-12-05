@@ -38,18 +38,18 @@
     <p>Volume=a * b * c
 
   <form>
-    Side1: <input type="text" id="side" name="side" />
+    Segment1: <input type="text" id="segment1" name="segment1" />
     <br />
-    Side2: <input type="text" id="side" name="side" />
+    Segment2: <input type="text" id="segment2" name="segment2" />
     <br />
-    Side3: <input type="text" id="side" name="side" />
+    Segment3: <input type="text" id="segment3" name="segment3" />
     <br />
     <button type="button" onclick="multiply()">*</button>
-    <button type="button" onclick="calculateprismVolume()">Calculate</button>
+    <button type="button" onclick="calculatePrismVolume()">Calculate</button>
 
   </form>
 
-  Result: <span id="prismvolume"></span>
+  Result: <span id="prismVolume"></span>
 
   <!-- **************************************** -->
   <!--                   PYRAMID                -->
@@ -59,13 +59,15 @@
   <p>Volume=(1/3) * b * h
 
 <form>
-  Side: <input type="text" id="side" name="side" />
+  Base: <input type="text" id="base" name="base" />
   <br />
-  <button type="button" onclick="calculatepyramidVolume()">Calculate</button>
+  Height: <input type="text" id="height" name="height" />
+  <br />
+  <button type="button" onclick="calculatePyramidVolume()">Calculate</button>
 
 </form>
 
-Result: <span id="pyramidvolume"></span>
+Result: <span id="pyramidVolume"></span>
 
 
 
