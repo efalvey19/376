@@ -1,1 +1,7 @@
-
+body{
+  background-color: black;
+  color: white;
+}
+.result{
+  color: red;
+}

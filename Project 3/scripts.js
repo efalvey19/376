@@ -29,8 +29,10 @@ function multiply() {
     document.getElementById("result").innerHTML = result;
 }
 function calculatePrismVolume(){
-  var segment= getValue("segment");
-  var volume= a * b * c
+  var segment1= getValue("segment1");
+  var segment2= getValue("segment2");
+  var segment3= getValue("segment3");
+  var volume= segment1 * segment2 * segment3;
 
   writeResult(volume,"prismVolume");
 }
