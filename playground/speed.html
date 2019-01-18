@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Speed.html</title>
+
+        <script>
+
+        function checkSpeed() {
+            var speed = parseInt(document.getElementById("speed").value);
+
+            var result = "";
+            if (isNaN(speed)) {
+                result = "That's not a number!";
+            } else {
+                var scale = document.getElementById("scale").value;
+                if (scale == "") {
+                    speed = speed * 9 / 5 + 32;
+                }
+
+                if (speed < 60) {
+                    result = "That's too slow!";
+                } else if (speed > 80) {
+                    result = "That's too fast!";
+                } else {
+                    result = "That's just right.";
+                }
+            }
+
+            document.getElementById("result").innerHTML = result;
+        }
+
+        </script>
+    </head>
+
+    <body>
+
+        <h1>Speed Survey</h1>
+
+        <p>
+            The focus of this lesson is <b>Booleans</b>, <b>comparisons</b>, and <b>conditional
+            statements</b>. We will use this speed analyzer as an example.
+        </p>
+
+        <form>
+            How fast do you drive?
+            <input type="text" id="speed" name="speed" size="5" />
+            degrees
+            <select id="scale" name="scale">
+                <option value="City">City</option>
+                <option value="Highway">Highway</option>
+            <select>
+            <button type="button" onclick="checkSpeed()">Analyze</button>
+        </form>
+
+        <h2 id="result"></h2>
+    </body>
+</html>
