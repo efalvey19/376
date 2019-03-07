@@ -1,0 +1,118 @@
+#background {
+    fill: #009933;
+    stroke-width: 4;
+    stroke: #000000;
+}
+
+.die {
+    fill: #ffffff;
+    stroke-width: 3;
+    stroke: #000000;
+}
+
+.pip {
+    stroke: #000000;
+    fill: #000000;
+    visibility: hidden;
+}
+
+#point {
+    fill: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 24pt;
+    text-anchor: middle;
+}
+
+#p1earnings {
+    font-weight: bold;
+}
+
+#p2earnings {
+    font-weight: bold;
+}
+
+
+#instructions {
+    fill: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18pt;
+    text-anchor: middle;
+}
+
+#playeruno{
+    fill: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+
+#playerdos{
+    fill: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+}
+
+#playerone{
+    fill: #000000;
+    stroke-width: 3;
+    stroke: #ffffff;
+}
+
+#playertwo{
+    fill: #000000;
+    stroke-width: 3;
+    stroke: #ffffff;
+}
+
+#controls {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    width: 500px;
+}
+
+#circle1 {
+    fill: #000000;
+    stroke-width: 3;
+    stroke: #ffffff; 
+}
+
+#circle2 {
+    fill: #000000;
+    stroke-width: 3;
+    stroke: #ffffff;
+}
+
+#score1 {
+    fill: #ffffff;
+}
+
+#score2 {
+    fill: #ffffff;
+}
+
+#message {
+    fill: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18pt;
+    text-anchor: middle;
+}
+
+#box {
+   fill: #000000;
+   stroke-width: 3;
+   stroke: #ffffff; 
+}
+
+#name {
+   fill: #ffffff;
+   font-family: Arial, sans-serif;
+   font-size: 14pt;
+}
+
+#triang1 {
+    fill: #000000; 
+}
+
+#triang2 {
+    fill: #000000; 
+}
